@@ -32,7 +32,7 @@ end
 
 % Shapes of dZ
 % Icoef - coefficient to linearly correct to the amplitude of the injected
-% current. j = 5 -> 2 ua/cm2 (Icoef = 2.5 times less)
+% current. j = 10 -> 4 ma/cm2 (Icoef = 2.5 times less)
 Icoef = 2.5;
 load('Disp_signals_github.mat', 'c_dz_abs');
 load('Disp_signals_github.mat', 'c_dz_abs_2k');
