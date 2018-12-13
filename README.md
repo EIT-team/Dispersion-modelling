@@ -1,8 +1,8 @@
 # Dispersion-modelling
 Effect of dispersion in nerve on impedance change: a modelling study
 
-These Matlab and Comsol FEM modelling scripts were used in the paper: 
-I. Tarotin, K. Aristovich, and D. Holder, "Effect of dispersion in nerve on impedance change: a modelling study", 2019
+These Matlab and Comsol FEM modelling scripts were used in the manuscript: 
+I. Tarotin, K. Aristovich, and D. Holder, "Effect of dispersion in nerve on impedance change: a modelling study"
 
 Details:
 - FEM_50C.m and FEM_50HH.m are comsol FEM models saved as Matlab scripts. THey can be Launched using Comsol Livelink for Matlab;
