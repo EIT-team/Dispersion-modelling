@@ -33,7 +33,7 @@ end
 load('Disp_signals_github.mat', 'dzhh_dc');
 load('Disp_signals_github.mat', 'hh_dz_abs_1k');
 load('Disp_signals_github.mat', 'ap_hh_noI');
-% current. j = 0.2 -> 0.04 ma/cm2 (Icoef = 2.5 times less)
+% current. j = 0.2 -> 0.04 ma/cm2 (Icoef = 5 times less)
 Icoef = 5;
 dz_shape_HH = interp1(0:0.01:14,dzhh_dc(1100:2500)./Icoef,0:dt:14); % DC, Same current (not j density)
 dz_shape_HH_1k = interp1(0:0.01:14,hh_dz_abs_1k(1100:2500)./Icoef,0:dt:14); % DC
